@@ -1,0 +1,22 @@
+{
+    "name": "albert/public_html",
+    "authors": [
+        {
+            "name": "Albert Abdrahimov",
+            "email": "abdrahimov.albert@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "5.7.19",
+        "symfony/var-dumper": "v4.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/init.php",
+            "app/database.php"
+        ]
+    }
+}
